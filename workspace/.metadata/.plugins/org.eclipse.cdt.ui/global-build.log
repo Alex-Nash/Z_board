@@ -1,0 +1,5 @@
+17:07:51 **** Incremental Build of configuration Debug for project LED_BLINK ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Цель `main-build' не требует выполнения команд.
