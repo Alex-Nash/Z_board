@@ -1,4 +1,6 @@
-set_property SRC_FILE_INFO {cfile:c:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0.xdc rfile:../../../ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:System_i/processing_system7_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_1/System_processing_system7_0_1.xdc rfile:../../../ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_1/System_processing_system7_0_1.xdc id:1 order:EARLY scoped_inst:System_i/processing_system7_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/imports/Downloads/Z7010 or Z7020 MicroZed with MBCC-BRK-PCB-A_v2.xdc} rfile:{../../../ZedBoard.srcs/constrs_1/imports/Downloads/Z7010 or Z7020 MicroZed with MBCC-BRK-PCB-A_v2.xdc} id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/new/Stepper_DC.xdc rfile:../../../ZedBoard.srcs/constrs_1/new/Stepper_DC.xdc id:3} [current_design]
 set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_0 0.3
 set_property src_info {type:SCOPED_XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
@@ -261,3 +263,207 @@ set_property src_info {type:SCOPED_XDC file:1 line:650 export:INPUT save:INPUT r
 set_property PACKAGE_PIN "B10" [get_ports "PS_SRSTB"]
 set_property src_info {type:SCOPED_XDC file:1 line:654 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN "E7" [get_ports "PS_CLK"]
+set_property src_info {type:XDC file:2 line:61 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R19 [get_ports {IO_0_34}];  # "R19.JX1_SE_0.JX1.9.IO_0_34"
+set_property src_info {type:XDC file:2 line:62 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T19 [get_ports {IO_25_34}];  # "T19.JX1_SE_1.JX1.10.IO_25_34"
+set_property src_info {type:XDC file:2 line:63 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T10 [get_ports {IO_L1N_T0_34}];  # "T10.JX1_LVDS_0_N.JX1.13.IO_L1N_T0_34"
+set_property src_info {type:XDC file:2 line:64 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T11 [get_ports {IO_L1P_T0_34}];  # "T11.JX1_LVDS_0_P.JX1.11.IO_L1P_T0_34"
+set_property src_info {type:XDC file:2 line:65 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U12 [get_ports {IO_L2N_T0_34}];  # "U12.JX1_LVDS_1_N.JX1.14.IO_L2N_T0_34"
+set_property src_info {type:XDC file:2 line:66 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T12 [get_ports {IO_L2P_T0_34}];  # "T12.JX1_LVDS_1_P.JX1.12.IO_L2P_T0_34"
+set_property src_info {type:XDC file:2 line:67 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V13 [get_ports {IO_L3N_T0_34}];  # "V13.JX1_LVDS_2_N.JX1.19.IO_L3N_T0_34"
+set_property src_info {type:XDC file:2 line:68 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U13 [get_ports {IO_L3P_T0_34}];  # "U13.JX1_LVDS_2_P.JX1.17.IO_L3P_T0_34"
+set_property src_info {type:XDC file:2 line:69 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W13 [get_ports {IO_L4N_T0_34}];  # "W13.JX1_LVDS_3_N.JX1.20.IO_L4N_T0_34"
+set_property src_info {type:XDC file:2 line:70 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V12 [get_ports {IO_L4P_T0_34}];  # "V12.JX1_LVDS_3_P.JX1.18.IO_L4P_T0_34"
+set_property src_info {type:XDC file:2 line:71 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T15 [get_ports {IO_L5N_T0_34}];  # "T15.JX1_LVDS_4_N.JX1.25.IO_L5N_T0_34"
+set_property src_info {type:XDC file:2 line:72 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T14 [get_ports {IO_L5P_T0_34}];  # "T14.JX1_LVDS_4_P.JX1.23.IO_L5P_T0_34"
+set_property src_info {type:XDC file:2 line:73 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R14 [get_ports {IO_L6N_T0_34}];  # "R14.JX1_LVDS_5_N.JX1.26.IO_L6N_T0_34"
+set_property src_info {type:XDC file:2 line:74 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P14 [get_ports {IO_L6P_T0_34}];  # "P14.JX1_LVDS_5_P.JX1.24.IO_L6P_T0_34"
+set_property src_info {type:XDC file:2 line:75 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y17 [get_ports {IO_L7N_T1_34}];  # "Y17.JX1_LVDS_6_N.JX1.31.IO_L7N_T1_34"
+set_property src_info {type:XDC file:2 line:76 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y16 [get_ports {IO_L7P_T1_34}];  # "Y16.JX1_LVDS_6_P.JX1.29.IO_L7P_T1_34"
+set_property src_info {type:XDC file:2 line:77 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y14 [get_ports {IO_L8N_T1_34}];  # "Y14.JX1_LVDS_7_N.JX1.32.IO_L8N_T1_34"
+set_property src_info {type:XDC file:2 line:78 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W14 [get_ports {IO_L8P_T1_34}];  # "W14.JX1_LVDS_7_P.JX1.30.IO_L8P_T1_34"
+set_property src_info {type:XDC file:2 line:79 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U17 [get_ports {IO_L9N_T1_34}];  # "U17.JX1_LVDS_8_N.JX1.37.IO_L9N_T1_34"
+set_property src_info {type:XDC file:2 line:80 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T16 [get_ports {IO_L9P_T1_34}];  # "T16.JX1_LVDS_8_P.JX1.35.IO_L9P_T1_34"
+set_property src_info {type:XDC file:2 line:81 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W15 [get_ports {IO_L10N_T1_34}];  # "W15.JX1_LVDS_9_N.JX1.38.IO_L10N_T1_34"
+set_property src_info {type:XDC file:2 line:82 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V15 [get_ports {IO_L10P_T1_34}];  # "V15.JX1_LVDS_9_P.JX1.36.IO_L10P_T1_34"
+set_property src_info {type:XDC file:2 line:83 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U15 [get_ports {IO_L11N_T1_34}];  # "U15.JX1_LVDS_10_N.JX1.43.IO_L11N_T1_34"
+set_property src_info {type:XDC file:2 line:84 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U14 [get_ports {IO_L11P_T1_34}];  # "U14.JX1_LVDS_10_P.JX1.41.IO_L11P_T1_34"
+set_property src_info {type:XDC file:2 line:85 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U19 [get_ports {IO_L12N_T1_34}];  # "U19.JX1_LVDS_11_N.JX1.44.IO_L12N_T1_34"
+set_property src_info {type:XDC file:2 line:86 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports {IO_L12P_T1_34}];  # "U18.JX1_LVDS_11_P.JX1.42.IO_L12P_T1_34"
+set_property src_info {type:XDC file:2 line:87 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P19 [get_ports {IO_L13N_T2_34}];  # "P19.JX1_LVDS_12_N.JX1.49.IO_L13N_T2_34"
+set_property src_info {type:XDC file:2 line:88 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N18 [get_ports {IO_L13P_T2_34}];  # "N18.JX1_LVDS_12_P.JX1.47.IO_L13P_T2_34"
+set_property src_info {type:XDC file:2 line:89 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P20 [get_ports {IO_L14N_T2_34}];  # "P20.JX1_LVDS_13_N.JX1.50.IO_L14N_T2_34"
+set_property src_info {type:XDC file:2 line:90 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N20 [get_ports {IO_L14P_T2_34}];  # "N20.JX1_LVDS_13_P.JX1.48.IO_L14P_T2_34"
+set_property src_info {type:XDC file:2 line:91 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U20 [get_ports {IO_L15N_T2_34}];  # "U20.JX1_LVDS_14_N.JX1.55.IO_L15N_T2_34"
+set_property src_info {type:XDC file:2 line:92 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T20 [get_ports {IO_L15P_T2_34}];  # "T20.JX1_LVDS_14_P.JX1.53.IO_L15P_T2_34"
+set_property src_info {type:XDC file:2 line:93 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W20 [get_ports {IO_L16N_T2_34}];  # "W20.JX1_LVDS_15_N.JX1.56.IO_L16N_T2_34"
+set_property src_info {type:XDC file:2 line:94 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V20 [get_ports {IO_L16P_T2_34}];  # "V20.JX1_LVDS_15_P.JX1.54.IO_L16P_T2_34"
+set_property src_info {type:XDC file:2 line:95 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y19 [get_ports {IO_L17N_T2_34}];  # "Y19.JX1_LVDS_16_N.JX1.63.IO_L17N_T2_34"
+set_property src_info {type:XDC file:2 line:96 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y18 [get_ports {IO_L17P_T2_34}];  # "Y18.JX1_LVDS_16_P.JX1.61.IO_L17P_T2_34"
+set_property src_info {type:XDC file:2 line:97 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W16 [get_ports {IO_L18N_T2_34}];  # "W16.JX1_LVDS_17_N.JX1.64.IO_L18N_T2_34"
+set_property src_info {type:XDC file:2 line:98 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V16 [get_ports {IO_L18P_T2_34}];  # "V16.JX1_LVDS_17_P.JX1.62.IO_L18P_T2_34"
+set_property src_info {type:XDC file:2 line:99 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R17 [get_ports {IO_L19N_T3_34}];  # "R17.JX1_LVDS_18_N.JX1.69.IO_L19N_T3_34"
+set_property src_info {type:XDC file:2 line:100 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R16 [get_ports {IO_L19P_T3_34}];  # "R16.JX1_LVDS_18_P.JX1.67.IO_L19P_T3_34"
+set_property src_info {type:XDC file:2 line:101 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R18 [get_ports {IO_L20N_T3_34}];  # "R18.JX1_LVDS_19_N.JX1.70.IO_L20N_T3_34"
+set_property src_info {type:XDC file:2 line:102 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T17 [get_ports {IO_L20P_T3_34}];  # "T17.JX1_LVDS_19_P.JX1.68.IO_L20P_T3_34"
+set_property src_info {type:XDC file:2 line:103 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V18 [get_ports {IO_L21N_T3_34}];  # "V18.JX1_LVDS_20_N.JX1.75.IO_L21N_T3_34"
+set_property src_info {type:XDC file:2 line:104 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V17 [get_ports {IO_L21P_T3_34}];  # "V17.JX1_LVDS_20_P.JX1.73.IO_L21P_T3_34"
+set_property src_info {type:XDC file:2 line:105 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W19 [get_ports {IO_L22N_T3_34}];  # "W19.JX1_LVDS_21_N.JX1.76.IO_L22N_T3_34"
+set_property src_info {type:XDC file:2 line:106 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W18 [get_ports {IO_L22P_T3_34}];  # "W18.JX1_LVDS_21_P.JX1.74.IO_L22P_T3_34"
+set_property src_info {type:XDC file:2 line:107 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P18 [get_ports {IO_L23N_T3_34}];  # "P18.JX1_LVDS_22_N.JX1.83.IO_L23N_T3_34"
+set_property src_info {type:XDC file:2 line:108 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N17 [get_ports {IO_L23P_T3_34}];  # "N17.JX1_LVDS_22_P.JX1.81.IO_L23P_T3_34"
+set_property src_info {type:XDC file:2 line:109 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P16 [get_ports {IO_L24N_T3_34}];  # "P16.JX1_LVDS_23_N.JX1.84.IO_L24N_T3_34"
+set_property src_info {type:XDC file:2 line:110 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN P15 [get_ports {IO_L24P_T3_34}];  # "P15.JX1_LVDS_23_P.JX1.82.IO_L24P_T3_34"
+set_property src_info {type:XDC file:2 line:116 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G14 [get_ports {IO_0_35}];  # "G14.JX2_SE_0.JX2.13.IO_0_35"
+set_property src_info {type:XDC file:2 line:117 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J15 [get_ports {IO_25_35}];  # "J15.JX2_SE_1.JX2.14.IO_25_35"
+set_property src_info {type:XDC file:2 line:118 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN B20 [get_ports {IO_L1N_T0_35}];  # "B20.JX2_LVDS_0_N.JX2.19.IO_L1N_T0_35"
+set_property src_info {type:XDC file:2 line:119 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN C20 [get_ports {IO_L1P_T0_35}];  # "C20.JX2_LVDS_0_P.JX2.17.IO_L1P_T0_35"
+set_property src_info {type:XDC file:2 line:120 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN A20 [get_ports {IO_L2N_T0_35}];  # "A20.JX2_LVDS_1_N.JX2.20.IO_L2N_T0_35"
+set_property src_info {type:XDC file:2 line:121 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN B19 [get_ports {IO_L2P_T0_35}];  # "B19.JX2_LVDS_1_P.JX2.18.IO_L2P_T0_35"
+set_property src_info {type:XDC file:2 line:122 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D18 [get_ports {IO_L3N_T0_35}];  # "D18.JX2_LVDS_2_N.JX2.25.IO_L3N_T0_35"
+set_property src_info {type:XDC file:2 line:123 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E17 [get_ports {IO_L3P_T0_35}];  # "E17.JX2_LVDS_2_P.JX2.23.IO_L3P_T0_35"
+set_property src_info {type:XDC file:2 line:124 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D20 [get_ports {IO_L4N_T0_35}];  # "D20.JX2_LVDS_3_N.JX2.26.IO_L4N_T0_35"
+set_property src_info {type:XDC file:2 line:125 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN D19 [get_ports {IO_L4P_T0_35}];  # "D19.JX2_LVDS_3_P.JX2.24.IO_L4P_T0_35"
+set_property src_info {type:XDC file:2 line:126 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E19 [get_ports {IO_L5N_T0_35}];  # "E19.JX2_LVDS_4_N.JX2.31.IO_L5N_T0_35"
+set_property src_info {type:XDC file:2 line:127 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN E18 [get_ports {IO_L5P_T0_35}];  # "E18.JX2_LVDS_4_P.JX2.29.IO_L5P_T0_35"
+set_property src_info {type:XDC file:2 line:128 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F17 [get_ports {IO_L6N_T0_35}];  # "F17.JX2_LVDS_5_N.JX2.32.IO_L6N_T0_35"
+set_property src_info {type:XDC file:2 line:129 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F16 [get_ports {IO_L6P_T0_35}];  # "F16.JX2_LVDS_5_P.JX2.30.IO_L6P_T0_35"
+set_property src_info {type:XDC file:2 line:130 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M20 [get_ports {IO_L7N_T1_35}];  # "M20.JX2_LVDS_7_N.JX2.38.IO_L7N_T1_35"
+set_property src_info {type:XDC file:2 line:131 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M19 [get_ports {IO_L7P_T1_35}];  # "M19.JX2_LVDS_7_P.JX2.36.IO_L7P_T1_35"
+set_property src_info {type:XDC file:2 line:132 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M18 [get_ports {IO_L8N_T1_35}];  # "M18.JX2_LVDS_8_N.JX2.43.IO_L8N_T1_35"
+set_property src_info {type:XDC file:2 line:133 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M17 [get_ports {IO_L8P_T1_35}];  # "M17.JX2_LVDS_8_P.JX2.41.IO_L8P_T1_35"
+set_property src_info {type:XDC file:2 line:134 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L20 [get_ports {IO_L9N_T1_35}];  # "L20.JX2_LVDS_6_N.JX2.37.IO_L9N_T1_35"
+set_property src_info {type:XDC file:2 line:135 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L19 [get_ports {IO_L9P_T1_35}];  # "L19.JX2_LVDS_6_P.JX2.35.IO_L9P_T1_35"
+set_property src_info {type:XDC file:2 line:136 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J19 [get_ports {IO_L10N_T1_35}];  # "J19.JX2_LVDS_9_N.JX2.44.IO_L10N_T1_35"
+set_property src_info {type:XDC file:2 line:137 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K19 [get_ports {IO_L10P_T1_35}];  # "K19.JX2_LVDS_9_P.JX2.42.IO_L10P_T1_35"
+set_property src_info {type:XDC file:2 line:138 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L17 [get_ports {IO_L11N_T1_35}];  # "L17.JX2_LVDS_10_N.JX2.49.IO_L11N_T1_35"
+set_property src_info {type:XDC file:2 line:139 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L16 [get_ports {IO_L11P_T1_35}];  # "L16.JX2_LVDS_10_P.JX2.47.IO_L11P_T1_35"
+set_property src_info {type:XDC file:2 line:140 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K18 [get_ports {IO_L12N_T1_35}];  # "K18.JX2_LVDS_11_N.JX2.50.IO_L12N_T1_35"
+set_property src_info {type:XDC file:2 line:141 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K17 [get_ports {IO_L12P_T1_35}];  # "K17.JX2_LVDS_11_P.JX2.48.IO_L12P_T1_35"
+set_property src_info {type:XDC file:2 line:142 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H17 [get_ports {IO_L13N_T2_35}];  # "H17.JX2_LVDS_12_N.JX2.55.IO_L13N_T2_35"
+set_property src_info {type:XDC file:2 line:143 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H16 [get_ports {IO_L13P_T2_35}];  # "H16.JX2_LVDS_12_P.JX2.53.IO_L13P_T2_35"
+set_property src_info {type:XDC file:2 line:144 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H18 [get_ports {IO_L14N_T2_35}];  # "H18.JX2_LVDS_13_N.JX2.56.IO_L14N_T2_35"
+set_property src_info {type:XDC file:2 line:145 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J18 [get_ports {IO_L14P_T2_35}];  # "J18.JX2_LVDS_13_P.JX2.54.IO_L14P_T2_35"
+set_property src_info {type:XDC file:2 line:146 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F20 [get_ports {IO_L15N_T2_35}];  # "F20.JX2_LVDS_15_N.JX2.64.IO_L15N_T2_35"
+set_property src_info {type:XDC file:2 line:147 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F19 [get_ports {IO_L15P_T2_35}];  # "F19.JX2_LVDS_15_P.JX2.62.IO_L15P_T2_35"
+set_property src_info {type:XDC file:2 line:148 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G18 [get_ports {IO_L16N_T2_35}];  # "G18.JX2_LVDS_14_N.JX2.63.IO_L16N_T2_35"
+set_property src_info {type:XDC file:2 line:149 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G17 [get_ports {IO_L16P_T2_35}];  # "G17.JX2_LVDS_14_P.JX2.61.IO_L16P_T2_35"
+set_property src_info {type:XDC file:2 line:150 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H20 [get_ports {IO_L17N_T2_35}];  # "H20.JX2_LVDS_17_N.JX2.70.IO_L17N_T2_35"
+set_property src_info {type:XDC file:2 line:151 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J20 [get_ports {IO_L17P_T2_35}];  # "J20.JX2_LVDS_17_P.JX2.68.IO_L17P_T2_35"
+set_property src_info {type:XDC file:2 line:152 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G20 [get_ports {IO_L18N_T2_35}];  # "G20.JX2_LVDS_16_N.JX2.69.IO_L18N_T2_35"
+set_property src_info {type:XDC file:2 line:153 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G19 [get_ports {IO_L18P_T2_35}];  # "G19.JX2_LVDS_16_P.JX2.67.IO_L18P_T2_35"
+set_property src_info {type:XDC file:2 line:154 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G15 [get_ports {IO_L19N_T3_35}];  # "G15.JX2_LVDS_19_N.JX2.76.IO_L19N_T3_35"
+set_property src_info {type:XDC file:2 line:155 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H15 [get_ports {IO_L19P_T3_35}];  # "H15.JX2_LVDS_19_P.JX2.74.IO_L19P_T3_35"
+set_property src_info {type:XDC file:2 line:156 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J14 [get_ports {IO_L20N_T3_35}];  # "J14.JX2_LVDS_18_N.JX2.75.IO_L20N_T3_35"
+set_property src_info {type:XDC file:2 line:157 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K14 [get_ports {IO_L20P_T3_35}];  # "K14.JX2_LVDS_18_P.JX2.73.IO_L20P_T3_35"
+set_property src_info {type:XDC file:2 line:158 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N16 [get_ports {IO_L21N_T3_35}];  # "N16.JX2_LVDS_20_N.JX2.83.IO_L21N_T3_35"
+set_property src_info {type:XDC file:2 line:159 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N15 [get_ports {IO_L21P_T3_35}];  # "N15.JX2_LVDS_20_P.JX2.81.IO_L21P_T3_35"
+set_property src_info {type:XDC file:2 line:160 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L15 [get_ports {IO_L22N_T3_35}];  # "L15.JX2_LVDS_21_N.JX2.84.IO_L22N_T3_35"
+set_property src_info {type:XDC file:2 line:161 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L14 [get_ports {IO_L22P_T3_35}];  # "L14.JX2_LVDS_21_P.JX2.82.IO_L22P_T3_35"
+set_property src_info {type:XDC file:2 line:162 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M15 [get_ports {IO_L23N_T3_35}];  # "M15.JX2_LVDS_22_N.JX2.89.IO_L23N_T3_35"
+set_property src_info {type:XDC file:2 line:163 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M14 [get_ports {IO_L23P_T3_35}];  # "M14.JX2_LVDS_22_P.JX2.87.IO_L23P_T3_35"
+set_property src_info {type:XDC file:2 line:164 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN J16 [get_ports {IO_L24N_T3_35}];  # "J16.JX2_LVDS_23_N.JX2.90.IO_L24N_T3_35"
+set_property src_info {type:XDC file:2 line:165 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K16 [get_ports {IO_L24P_T3_35}];  # "K16.JX2_LVDS_23_P.JX2.88.IO_L24P_T3_35"
+set_property src_info {type:XDC file:3 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R19 [get_ports {gpio_tri_o[0]}]
+set_property src_info {type:XDC file:3 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T19 [get_ports {gpio_tri_o[1]}]

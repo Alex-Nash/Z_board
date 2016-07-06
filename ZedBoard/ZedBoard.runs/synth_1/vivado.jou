@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Jul 05 21:41:36 2016
-# Process ID: 4428
-# Current directory: C:/Users/Asus/ZedBoard/ZedBoard.runs/synth_1
+# Start of session at: Wed Jul 06 20:09:11 2016
+# Process ID: 9840
+# Current directory: C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.runs/synth_1
 # Command line: vivado.exe -log System_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source System_wrapper.tcl
-# Log file: C:/Users/Asus/ZedBoard/ZedBoard.runs/synth_1/System_wrapper.vds
-# Journal file: C:/Users/Asus/ZedBoard/ZedBoard.runs/synth_1\vivado.jou
+# Log file: C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.runs/synth_1/System_wrapper.vds
+# Journal file: C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source System_wrapper.tcl -notrace

@@ -52,13 +52,24 @@ set rc [catch {
   set_property board_part em.avnet.com:microzed_7010:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Users/Asus/ZedBoard/ZedBoard.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Asus/ZedBoard/ZedBoard.xpr [current_project]
-  set_property ip_repo_paths c:/Users/Asus/ZedBoard/ZedBoard.cache/ip [current_project]
-  set_property ip_output_repo c:/Users/Asus/ZedBoard/ZedBoard.cache/ip [current_project]
-  add_files -quiet C:/Users/Asus/ZedBoard/ZedBoard.runs/synth_1/System_wrapper.dcp
-  read_xdc -ref System_processing_system7_0_0 -cells inst c:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0.xdc
-  set_property processing_order EARLY [get_files c:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0.xdc]
+  set_property webtalk.parent_dir C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.xpr [current_project]
+  set_property ip_repo_paths c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.cache/ip [current_project]
+  set_property ip_output_repo c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.cache/ip [current_project]
+  set_property XPM_LIBRARIES XPM_CDC [current_project]
+  add_files -quiet C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.runs/synth_1/System_wrapper.dcp
+  read_xdc -ref System_processing_system7_0_1 -cells inst c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_1/System_processing_system7_0_1.xdc
+  set_property processing_order EARLY [get_files c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_1/System_processing_system7_0_1.xdc]
+  read_xdc -prop_thru_buffers -ref System_axi_gpio_0_1 -cells U0 c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_board.xdc
+  set_property processing_order EARLY [get_files c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_board.xdc]
+  read_xdc -ref System_axi_gpio_0_1 -cells U0 c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1.xdc
+  set_property processing_order EARLY [get_files c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1.xdc]
+  read_xdc -prop_thru_buffers -ref System_rst_processing_system7_0_50M_0 -cells U0 c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0_board.xdc
+  set_property processing_order EARLY [get_files c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0_board.xdc]
+  read_xdc -ref System_rst_processing_system7_0_50M_0 -cells U0 c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0.xdc
+  set_property processing_order EARLY [get_files c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0.xdc]
+  read_xdc {{C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/imports/Downloads/Z7010 or Z7020 MicroZed with MBCC-BRK-PCB-A_v2.xdc}}
+  read_xdc C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/new/Stepper_DC.xdc
   link_design -top System_wrapper -part xc7z010clg400-1
   write_hwdef -file System_wrapper.hwdef
   close_msg_db -file init_design.pb

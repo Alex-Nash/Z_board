@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
-<instance id="xilinx.gnu.armv7.exe.debug.661202007;xilinx.gnu.armv7.exe.debug.661202007.">
+<instance id="xilinx.gnu.armv7.exe.debug.164418215;xilinx.gnu.armv7.exe.debug.164418215.">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="c:\xilinx\sdk\2016.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/4.9.2/include"/>
 <includePath path="c:\xilinx\sdk\2016.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/4.9.2/include-fixed"/>
@@ -347,7 +347,7 @@
 <definedSymbol symbol="__USES_INITFINI__=1"/>
 </collector>
 </instance>
-<instance id="xilinx.gnu.armv7.exe.release.1003060756;xilinx.gnu.armv7.exe.release.1003060756.">
+<instance id="xilinx.gnu.armv7.exe.release.166031153;xilinx.gnu.armv7.exe.release.166031153.">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="c:\xilinx\sdk\2016.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/4.9.2/include"/>
 <includePath path="c:\xilinx\sdk\2016.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/4.9.2/include-fixed"/>
@@ -694,7 +694,7 @@
 <definedSymbol symbol="__USES_INITFINI__=1"/>
 </collector>
 </instance>
-<instance id="xilinx.gnu.armv7.exe.debug.661202007;xilinx.gnu.armv7.exe.debug.661202007.;xilinx.gnu.armv7.c.toolchain.compiler.debug.1379763469;xilinx.gnu.armv7.c.compiler.input.2002910757">
+<instance id="xilinx.gnu.armv7.exe.debug.164418215;xilinx.gnu.armv7.exe.debug.164418215.;xilinx.gnu.armv7.c.toolchain.compiler.debug.1813661918;xilinx.gnu.armv7.c.compiler.input.1444859419">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="c:\xilinx\sdk\2016.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/4.9.2/include"/>
 <includePath path="c:\xilinx\sdk\2016.2\gnu\aarch32\nt\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/4.9.2/include-fixed"/>

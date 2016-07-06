@@ -10,20 +10,33 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/Asus/ZedBoard/ZedBoard.cache/wt [current_project]
-set_property parent.project_path C:/Users/Asus/ZedBoard/ZedBoard.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.cache/wt [current_project]
+set_property parent.project_path C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.xpr [current_project]
+set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part em.avnet.com:microzed_7010:part0:1.1 [current_project]
-add_files C:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/System.bd
-set_property used_in_implementation false [get_files -all c:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all C:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/System_ooc.xdc]
-set_property is_locked true [get_files C:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/System.bd]
+add_files C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/System.bd
+set_property used_in_implementation false [get_files -all c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_processing_system7_0_1/System_processing_system7_0_1.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/System_ooc.xdc]
+set_property is_locked true [get_files C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/System.bd]
 
-read_verilog -library xil_defaultlib C:/Users/Asus/ZedBoard/ZedBoard.srcs/sources_1/bd/System/hdl/System_wrapper.v
+read_verilog -library xil_defaultlib C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/sources_1/bd/System/hdl/System_wrapper.v
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }
+read_xdc {{C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/imports/Downloads/Z7010 or Z7020 MicroZed with MBCC-BRK-PCB-A_v2.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/imports/Downloads/Z7010 or Z7020 MicroZed with MBCC-BRK-PCB-A_v2.xdc}}]
+
+read_xdc C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/new/Stepper_DC.xdc
+set_property used_in_implementation false [get_files C:/Users/Asus/Desktop/MicroZed/ZedBoard/ZedBoard.srcs/constrs_1/new/Stepper_DC.xdc]
+
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 

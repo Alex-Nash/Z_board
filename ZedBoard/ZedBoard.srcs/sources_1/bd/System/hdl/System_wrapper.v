@@ -1,7 +1,7 @@
 //Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-//Date        : Tue Jul 05 21:34:51 2016
+//Date        : Wed Jul 06 19:52:32 2016
 //Host        : Asus-PC running 64-bit major release  (build 9200)
 //Command     : generate_target System_wrapper.bd
 //Design      : System_wrapper
@@ -30,7 +30,8 @@ module System_wrapper
     FIXED_IO_mio,
     FIXED_IO_ps_clk,
     FIXED_IO_ps_porb,
-    FIXED_IO_ps_srstb);
+    FIXED_IO_ps_srstb,
+    gpio_tri_o);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -52,6 +53,7 @@ module System_wrapper
   inout FIXED_IO_ps_clk;
   inout FIXED_IO_ps_porb;
   inout FIXED_IO_ps_srstb;
+  output [1:0]gpio_tri_o;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -74,6 +76,7 @@ module System_wrapper
   wire FIXED_IO_ps_clk;
   wire FIXED_IO_ps_porb;
   wire FIXED_IO_ps_srstb;
+  wire [1:0]gpio_tri_o;
 
   System System_i
        (.DDR_addr(DDR_addr),
@@ -96,5 +99,6 @@ module System_wrapper
         .FIXED_IO_mio(FIXED_IO_mio),
         .FIXED_IO_ps_clk(FIXED_IO_ps_clk),
         .FIXED_IO_ps_porb(FIXED_IO_ps_porb),
-        .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb));
+        .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
+        .GPIO_tri_o(gpio_tri_o));
 endmodule

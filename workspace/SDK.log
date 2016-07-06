@@ -1,7 +1,3 @@
-14:03:41 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Alex\workspace\temp_xsdb_launch_script.tcl
-14:03:47 INFO  : XSDB server has started successfully.
-14:18:03 INFO  : Project 'hw_platform' created. You can now create BSPs and application projects targeting this hardware platform.
-14:20:38 INFO  : Example project standalone_bsp_0_xgpiops_intr_example_1 has been created successfully.
-14:20:39 INFO  : Example project standalone_bsp_0_xgpiops_polled_example_1 has been created successfully.
-21:30:53 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Asus\Desktop\MicroZed\workspace\temp_xsdb_launch_script.tcl
-21:30:59 INFO  : XSDB server has started successfully.
+20:42:30 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\Asus\Desktop\MicroZed\workspace\temp_xsdb_launch_script.tcl
+20:42:34 INFO  : XSDB server has started successfully.
+20:43:42 INFO  : Project 'HW_Platform' created. You can now create BSPs and application projects targeting this hardware platform.
