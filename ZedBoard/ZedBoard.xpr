@@ -50,15 +50,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="hdl/System.v"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="hdl/System.hwdef"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="hw_handoff/System_bd.tcl"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="hw_handoff/System.hwh"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="System_ooc.xdc"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="ip/System_axi_gpio_0_1/System_axi_gpio_0_1.xci"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="ip/System_processing_system7_0_1/System_processing_system7_0_1.xci"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="ip/System_processing_system7_0_axi_periph_0/System_processing_system7_0_axi_periph_0.xci"/>
-        <CompFileExtendedInfo CompFileName="System.bd" FileRelPathName="ip/System_rst_processing_system7_0_50M_0/System_rst_processing_system7_0_50M_0.xci"/>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/System/hdl/System_wrapper.v">
         <FileInfo>

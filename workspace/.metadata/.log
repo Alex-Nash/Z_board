@@ -7806,3 +7806,28 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 0 0 2016-07-06 21:14:41.136
 !MESSAGE XSDB command with result: [jtag targets -filter {level == 0}], Result: [null, ]. Thread: Worker-13
+!SESSION 2016-07-06 21:50:01.377 -----------------------------------------------
+eclipse.buildId=2016.2
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-07-06 21:51:09.417
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Asus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2016-07-06 21:51:16.080
+!MESSAGE XSDB Command: [::hsi::utils::init_repo], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2016-07-06 21:51:21.534
+!MESSAGE XSDB command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2016-07-06 21:51:21.659
+!MESSAGE XSDB Command: [::hsi::utils::openhw C:/Users/Asus/Desktop/MicroZed/workspace/HW_Platform/system.hdf], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2016-07-06 21:51:36.117
+!MESSAGE XSDB command with result: [::hsi::utils::openhw C:/Users/Asus/Desktop/MicroZed/workspace/HW_Platform/system.hdf], Result: [null, ]. Thread: Worker-7
